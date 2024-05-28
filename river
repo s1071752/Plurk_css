@@ -1,0 +1,138 @@
+/*河道往前往後鈕*/
+.browse_button {  opacity: 0.5;}
+/*河道往前往後鈕：滑鼠移至*/
+.browse_button:hover {  opacity: 1;}
+
+/*河道背景*/
+div#timeline_holder{    background: rgba(175,172,173, 0.5) !important;}
+
+/* Apply background, border, and transition styles to various elements */
+.plurk_cnt, .link_extend .plurk_cnt, .plurk_box .plurk_cnt, .mini_form
+{
+      background: rgba(255,255,255,0.6) !important; /* Set background to white with 50% opacity */
+      border: 0 !important; /* Remove border */
+      transition: background 0.01s ease; /* Smooth background transition over 0.8 seconds */
+} 
+
+/* Specific styles for .plurk_box */
+.plurk_box
+{
+      background: rgba(255,255,255,0.01) !important; /* Set background to white with 1% opacity */
+      border: 0 !important; /* Remove border */
+      transition: background 0.01s ease; /* Smooth background transition over 0.8 seconds */
+}
+
+/* Add rounded corners to specified elements */
+.plurk_cnt,  .plurk_box, .mini_form 
+{
+      border-radius: 10px !important; /* Set border radius to 10px for rounded corners */
+}
+
+/* Change background on hover for .plurk_cnt */
+.plurk_cnt:hover
+{
+      background: rgba(255,255,255,0.9) !important; /* Set background to white with 90% opacity on hover */
+      border-radius: 10px !important; /* Ensure border radius remains 10px on hover */
+}
+
+/* Styles for expanded response area */
+.list .plurk_cnt 
+{
+      background: none !important; /* Remove background */
+       transition: background 0.01s ease;/* Smooth background transition over 0.8 seconds */
+      border-radius: 10px !important; /* Ensure border radius is 10px */
+} 
+
+/* Change background on hover for .plurk_cnt in .list */
+.list .plurk_cnt:hover 
+{
+      background: rgba(255,255,255,0.9) !important; /* Set background to white with 90% opacity on hover */
+      /*transition: background 0.8s ease;  Smooth background transition over 0.8 seconds */
+      border-radius: 10px !important; /* Ensure border radius is 10px on hover */
+      border: 2px !important;  /*Remove border */
+
+}
+/*回應數泡泡*/
+span.response_count{      border-radius: 16px !important; }
+
+/* 河道發文者頭像 */
+div.p_img img 
+{
+      border: 0 !important; /* Remove border */
+      padding: 0px; /* Remove padding */
+      background: none !important; /* Remove background */
+      border-radius: 20px !important; /* Set border radius to 16px for rounded corners */
+      
+}
+
+/*回應列表發噗區*/ 
+div.input_holder, #input_big
+{
+    background: none !important;
+    border: 0 !important;
+} 
+
+/*留言列表*/
+div.list-container tr.tr_cnt {  border-bottom: 1px dotted gray; }
+div.list-container tr.tr_cnt:hover 
+{ 
+     background: #FFFFF4; /*滑鼠移過就變色*/
+     border-radius: 7px 7px 7px 7px !important; 
+}
+
+/*留言列表文字區*/
+div.list-container tr.tr_cnt div.text_holder
+{
+    background: #F3F3FA;
+    border-radius: 7px 7px 7px 7px !important; 
+}
+div.list-container tr.tr_cnt div.text_holder:hover
+{
+    background: #ffffe9;/*滑鼠移過就變色*/
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+/*留言者暱稱上移*/
+#form_holder .plurk_cnt .td_qual {
+  position: absolute;
+}
+#form_holder .plurk_cnt .text_holder {
+  margin-top: 1.5em;
+  padding-left: 0.7em;
+}
+
+/*有輸入框的div*/
+div.mini_form
+{
+      background: rgba(255,255,255) !important;
+      border-radius: 0px 0px 10px 10px !important; /* Set border radius to 10px for rounded corners */
+}
+/*輸入框*/
+td.td_cnt textarea, textarea#input_small 
+{
+    background: rgba(255,255,255) !important;
+    font-size: 14px !important;
+    min-height: 60px !important;
+    line-height: 1.8em !important;
+    letter-spacing: 0.13em !important;
+    color: #000 !important;
+    padding: 3px 5px !important;
+    border: 1px solid #888 !important;
+    border-radius: 15px !important;
+}
+/*點擊輸入框*/
+textarea#input_small:active
+{
+    border: 2px solid #888 !important;
+}
+
+/*時間軸的線*/
+#bottom_line {  opacity: 0.4;}
+/*時間軸中的時間設為透明*/
+div.time_start
+{
+       background: rgba(255,255,255,0.3) !important; 
+       color: #ffffff;
+}
+
