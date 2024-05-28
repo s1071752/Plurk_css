@@ -1,0 +1,65 @@
+/*本人頭像*/
+img.profile-pic
+{
+      border-radius: 16px !important; /* Set border radius to 16px for rounded corners */
+}
+/*名字 */
+span.display_name, 
+{
+      font-weight:bold;
+      font-family: "Microsoft YaHei", "PingFang SC", "Heiti SC", "SimSun", "STSong", serif;
+      color: #646A58;
+}
+
+/*ID, link改字型*/
+span.nick_name, a.meta, a.ex_link
+{
+      font-family:  'Lucida Handwriting','Brush Script MT', 'Comic Sans MS', cursive;
+}
+/*個人簡介*/
+div#dash-additional-info
+{
+      background: rgba(255,255,255) !important; 
+      border-radius: 10px !important;
+}
+/*個人簡介文字*/
+p#about_me{color: #72636E;}
+
+/*私訊按鈕*/
+a.hideBlock{ display: none;}
+
+/*Karma, friends, fans三區融為一體*/
+div.dash-group-right
+{
+ background: rgba(255,255,255,0.999) !important;
+ border-radius: 10px !important; 
+}
+/*小標題*/
+h2
+{
+      font-weight:bold;
+      color: #646A58;
+}
+
+/*Karma區塊透明, 畫下框線*/
+ div.dash-segment-stats
+{
+       background-color: rgba(255,255,255,0.0001); 
+       border-bottom: 1px dotted gray;
+ }
+
+/* friends, fans, 徽章 區塊背景設為透明*/
+div.dash-segment-friends, div.dash-segment-fans, div.dash-segment-award { background-color: rgba(255,255,255,0.0001); }
+
+/*所在位置, 上次登入時間皆不顯示*/
+span#location, td#last_visit{  display: none; }
+
+/*隱藏好友總數, 共同好友*/
+div.dash-segment-friends div.show_all_friends, div.show_mutual_friends{ display: none; }
+/*加好友按鈕*/
+a.add_friend{ background: rgba(175,172,173, 0.5) !important;}
+a.add_friend:hover{ background: rgba(175,172,173, 1) !important;/*滑鼠移過就變*/}
+a.add_friend:active{ background: #ffffe9;/*滑鼠點擊就變色*/}
+
+/* 隱藏粉絲 */
+div.dash-segment-fans{ display: none;  }
