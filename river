@@ -31,7 +31,7 @@ div#timeline_holder{    background: rgba(175,172,173, 0.5) !important;}
 /* Change background on hover for .plurk_cnt */
 .plurk_cnt:hover
 {
-      background: rgba(255,255,255,0.9) !important; /* Set background to white with 90% opacity on hover */
+      background: rgb(255,255,255) !important; /* Set background to white on hover */
       border-radius: 10px !important; /* Ensure border radius remains 10px on hover */
 }
 
@@ -113,7 +113,7 @@ td.td_cnt textarea, textarea#input_small
 {
     background: rgba(255,255,255) !important;
     font-size: 14px !important;
-    min-height: 60px !important;
+    min-height: 40px !important;
     line-height: 1.8em !important;
     letter-spacing: 0.13em !important;
     color: #000 !important;
@@ -126,13 +126,12 @@ textarea#input_small:active
 {
     border: 2px solid #888 !important;
 }
+div.q_freestyle:hover
+{
+      background: #FF7575 !important;
+}
 
 /*時間軸的線*/
 #bottom_line {  opacity: 0.4;}
-/*時間軸中的時間設為透明*/
-div.time_start
-{
-       background: rgba(255,255,255,0.3) !important; 
-       color: #ffffff;
-}
-
+/*時間軸中的時間設為不可見*/
+div.time_start { visibility: hidden;}
